@@ -55,9 +55,11 @@ alias python=python3
 ```
 
 <h4> Now run-setup.py </h4>
+
 ```bash
 python setup.py
 ```
+
 <h3> 🤩🥳🥰😍Yah! You are successfully install anonim. Thanks!🤩🥳🥰😍 </h3> 
 
 ## Usage
