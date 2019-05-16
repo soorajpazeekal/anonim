@@ -29,7 +29,7 @@ Yes! Future is private! so anonim helps you to send-receive files via some diffe
 🥳 No need to anonim app to Receive just use your fav. browser!
 
 
-
+<h3> 🎈This is a beta version and currently tested with Linux/ubuntu OS. windows/mac-os updates coming soon :)🎈 </h3>
 
 
 ## Installation
