@@ -1,5 +1,7 @@
 # Anonim✌️✌️
 
+Go to👉 [Installation]()
+
 Yes! Future is private! so anonim helps you to send-receive files via some different ways. It is more private, no tracking, and decentralized. (Note: project is in beta mode :))
 
 <h1>  📌 Please do not use 'anonim' for illegal purposes. User will need to take all the responsibility about the usage. If found something, Please contact dev: helpttreect@cock.li. 
@@ -29,15 +31,17 @@ Yes! Future is private! so anonim helps you to send-receive files via some diffe
 🥳 No need to anonim app to Receive just use your fav. browser!
 
 
-<h3> 🎈This is a beta version and currently tested with Linux/ubuntu OS. windows/mac-os updates coming soon :)🎈 </h3>
+<h3> 🎈This is a beta version and currently tested with Linux/ubuntu OS. windows/mac-os updates coming soon!🎈 </h3>
 
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Anonim, works with [python3](https://www.python.org/downloads/) If you have not? Please download and install now.
+
+
 
 ```bash
-pip install foobar
+git clone https://github.com/soorajpazeekal/anonim.git
 ```
 
 ## Usage
