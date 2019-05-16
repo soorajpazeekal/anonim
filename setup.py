@@ -24,7 +24,9 @@ try:
 	cmd = 'pip install -r requirements.txt'
 	os.system(cmd)
 	time.sleep(3)
-	print('requirements sucessfully installed. now you are moving to an website. Please read the information!')
+	print('requirements sucessfully installed..\n')
+	time.sleep(3)
+	print('done. now please read the informations to chnage anonim settings.')
 	webbrowser.open('http://example.com')
 except:
 	print('Please check your python path! anonim trying to change that. but got error :(')

@@ -8,14 +8,14 @@ from django.contrib.messages import constants as message_constants
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '3=m)w@4b%1x7jbosaek8r7$%-4vj370$)=y7b+nig^g002qqdo'
+# SECURITY WARNING: never share to public. 
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 #Enter your connection adderss here: 
 
-ALLOWED_HOSTS = [ '.serveo.net', '.ngrok.io', '127.0.0.1', '192.168.42.223', '192.168.43.89', '192.168.43.139'
+ALLOWED_HOSTS = [ '.serveo.net', '.ngrok.io', '127.0.0.1'
                 ]
 
 
