@@ -5,6 +5,7 @@ Yes! Future is private! so anonim helps you to send-receive files via some diffe
 <h1>  📌 Please do not use 'anonim' for illegal purposes. User will need to take all the responsibility about the usage. If found something, Please contact dev: helpttreect@cock.li. 
 
 ## Features 
+<ol>
 😍 No Tracking. send *any* files and receive anything without monitoring!
 😇 decentralized, Your data, your computer!
 🤩 cross-platform. run once! access anywhere.
@@ -15,7 +16,7 @@ Yes! Future is private! so anonim helps you to send-receive files via some diffe
 😛 works with both wifi connections and mobile hotspot!
 🤪 name your connection.  📍NB: never share connection name with public. keep it is like your wifi password😉! 
 😜 Stream with your devices like (smart TV, smart-phones, media players etc.. ) Not just only work with home wifi, also support wan!
-🥳 No need to anonim app to Receive just use your fav. browser!
+🥳 No need to anonim app to Receive just use your fav. browser! </ol>
 
 
 
