@@ -22,7 +22,7 @@ Yes! Future is private! so anonim helps you to send-receive files via some diffe
 
 😛 works with both wifi connections and mobile hotspot!
 
-🤪 name your connection.  <h6>📍NB: never share connection name with public. keep it is like your wifi password😉!
+🤪 name your connection.  <h5>📍NB: never share connection name with public. keep it is like your wifi password😉!</h5>
 
 😜 Stream with your devices like (smart TV, smart-phones, media players etc.. ) Not just only work with home wifi, also support wan!
 
