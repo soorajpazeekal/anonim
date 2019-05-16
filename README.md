@@ -61,7 +61,7 @@ alias python=python3
 python setup.py
 ```
 
-<h3> 🤩🥳🥰😍Yah! You are successfully install anonim. Thanks!🤩🥳🥰😍 </h3> 
+<h3> 🤩🥳🥰😍Yah! You are successfully installed anonim. Thanks!🤩🥳🥰😍 </h3> 
 
 ## Usage
 
