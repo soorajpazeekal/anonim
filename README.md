@@ -1,8 +1,8 @@
-# Anonim
+# Anonim✌️✌️
 
 Yes! Future is private! so anonim helps you to send-receive files via some different ways. It is more private, no tracking, and decentralized. (Note: project is in beta mode :))
 
-<h1> dd
+<h1>  📌 Please do not use 'anonim' for illegal purposes. User will need to take all the responsibility about the usage. If found something, Please contact dev: helpttreect@cock.li. 
 
 ## Features 
 😍 No Tracking. send *any* files and receive anything without monitoring!
