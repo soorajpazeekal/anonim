@@ -1,6 +1,9 @@
 # Anonim✌️✌️
 
-Go to👉 [Installation]()
+
+Go to👉 [Installation]!(https://github.com/soorajpazeekal/anonim/blob/master/README.md#installation)
+Go to👉 [Features]!(https://github.com/soorajpazeekal/anonim/blob/master/README.md#Features)
+
 
 Yes! Future is private! so anonim helps you to send-receive files via some different ways. It is more private, no tracking, and decentralized. (Note: project is in beta mode :))
 
@@ -36,13 +39,25 @@ Yes! Future is private! so anonim helps you to send-receive files via some diffe
 
 ## Installation
 
-Anonim, works with [python3](https://www.python.org/downloads/) If you have not? Please download and install now.
+Anonim, works with [python3].(https://www.python.org/downloads/) If you have not? Please download and install now.
 
 
-
+<h4> First clone this repo! </h4>
 ```bash
 git clone https://github.com/soorajpazeekal/anonim.git
 ```
+<h4> anonim will run executable commands with *python NOT *python3  </h4>
+(if you have running python3 instead of python 3.*? Please run this command on your terminal!)
+
+```bash
+alias python=python3
+```
+
+<h4> Now run-setup.py </h4>
+```bash
+python setup.py
+```
+<h3> 🤩🥳🥰😍Yah! You are successfully install anonim. Thanks!🤩🥳🥰😍 </h3> 
 
 ## Usage
 
