@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+ <h2>Upload</h2>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input class="btn btn-outline-primary" type="file" name="document">
+    <button class="btn btn-primary" type="submit">Upload file</button>
+  </form>
+  {% if url %}
+  	<script type="text/javascript"> Swal.fire({
+  position: 'top-end',
+  type: 'success',
+  title: 'Item Added sucessfuly😎',
+  showConfirmButton: false,
+  timer: 1500
+})</script>
+    <p> Uploaded file: <a href="{{ url }}">{{ url }} </a></p>
+  {% endif %}
+
+
+
+{% endblock %}

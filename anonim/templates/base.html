@@ -1,0 +1,123 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title> {% block title %} 💓Anonim! Send-Receive Files more private and secure {% endblock %} </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- CSS Files -->
+  <link href="{% static "/dashboard/assets/css/bootstrap.min.css" %}" rel="stylesheet" />
+  <link href="{% static "/dashboard/assets/css/now-ui-dashboard.css" %}" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="{% static "/dashboard/assets/demo/demo.css" %}" rel="stylesheet" />
+</head>
+
+<body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="orange">
+      <!--
+        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
+    -->
+      <div class="logo">
+        <img src="{% static "logo.png" %}" alt="logo">
+      </div>
+      <div class="sidebar-wrapper" id="sidebar-wrapper">
+        <ul class="nav">
+          <li class="active ">
+            <a href="{%url 'home' %}">
+              <i class="now-ui-icons design_app"></i>
+              <p> <strong> Dashboard <strong> </p>
+            </a>
+          </li>
+          <li>
+            <a href="{% url 'upload' %}">
+              <i class="now-ui-icons arrows-1_cloud-upload-94"></i>
+              <p> <strong>💝Upload </strong></p>
+            </a>
+          </li>
+          <li>
+            <a href="{% url 'gallery' %}">
+              <i class="now-ui-icons gestures_tap-01"></i>
+              <p> <strong> 😉Send/receive </strong></p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="now-ui-icons ui-1_bell-53"></i>
+              <p> <strong>Notifications </strong></p>
+            </a>
+          </li>
+          <li>
+           <!-- <a href="./user.html">
+              <i class="now-ui-icons users_single-02"></i>
+              <p>User Profile</p>
+            </a>
+          </li> -->
+          <li>
+            <a href="{% url 'connect_wan' %}">
+              <i class="now-ui-icons business_globe"></i>
+              <p> <strong> 😻Launch wan mode </strong> </p>
+            </a>
+          </li>
+          <li>
+
+            {% if user.is_authenticated %}
+
+            <a href="{% url 'logout' %}">
+              <i class="now-ui-icons media-1_button-power"></i>
+              <p>💔Log out</p>
+              {% else %}
+
+            <a href="{% url 'signup' %}">
+              <i class="now-ui-icons media-1_button-power"></i>
+              <p>💔Sign-up</p>
+               {% endif %}
+
+            </a>
+          </li>
+         </ul>
+      </div>
+    </div>
+
+    <div class="main-panel" id="">
+      <!-- Navbar -->
+      
+      <!-- End Navbar -->
+      <div class="">
+      </div>
+       <br> <br> <br> <br>
+            <div class="container">
+              {% block content %}
+              {% endblock %}
+            </div>
+
+
+
+
+  <!--   Core JS Files   -->
+  <script src="{% static "/dashboard/assets/js/core/jquery.min.js" %}"></script>
+  <script src="{% static "/dashboard/assets/js/core/popper.min.js" %}"></script>
+  <script src="{% static "/dashboard/assets/js/core/bootstrap.min.js" %}"></script>
+  <script src="{% static "/dashboard/assets/js/plugins/perfect-scrollbar.jquery.min.js" %}"></script>
+  <!--  Google Maps Plugin   
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    -->
+  <script src="{% static "/dashboard/assets/js/plugins/chartjs.min.js" %}"></script>
+  <!--  Notifications Plugin    -->
+  <script src="{% static "/dashboard/assets/js/plugins/bootstrap-notify.js" %}"></script>
+  <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="{% static "/dashboard/assets/js/now-ui-dashboard.min.js" %}"> type="text/javascript"></script>
+  
+  
+</body>
+
+</html>

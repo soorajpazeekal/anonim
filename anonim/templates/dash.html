@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<head> 
+  {% if user.is_authenticated == False %}
+
+  <meta http-equiv="Refresh" content="5; url=/accounts/login/">
+  
+{% endif %}
+</head>
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://i.pinimg.com/originals/66/83/3e/66833e07d6fb9eb5d724e47d0c814285.gif" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Hey {{user.username}}!</h5>
+    <p class="card-text"> Welcome to anonim, a private platform for share files. online or offline!! <br>
+    Your Encryption Key: <strong> {{cipher_text}} </strong> </p> <br>
+    <a href="{% url 'gallery' %}" class="btn btn-primary">Files</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://media.giphy.com/media/26tP0j6zKn94ZyE1y/giphy.gif" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{ msg_heading }}🙋 {{ currentDT }}</h5>
+    <p class="card-text"> *Anonim, Build with peer to peer network mechanism! so password reset option is not technically possible. please remember your password🤷‍♂️ <br> *Click 'send now' button to send files! </p>
+    <a href="{% url 'upload' %}" class="btn btn-primary">send now!</a>
+  </div>
+</div>
+
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://i.pinimg.com/originals/0f/38/bc/0f38bcfc9f00c42803c00eedcb87159b.gif" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Connect with local or wan mode!</h5>
+     {% if local_connect %}
+
+    <p class="card-text"> <strong> *You can use this ip adderss to connect local Devices: <br> </strong>
+   <a href="http://{{local_connect}}:4653">{{local_connect}}:4653 </a> </strong> </p>
+   <br> <br>
+   <p class="card-text"> <strong> *Press 'LAUNCH WAN MODE' to trasfer files over internet!  </strong>
+   	 <br>  <br> 
+    <a href="{% url 'connect_wan' %}" class="btn btn-primary"> LAUNCH WAN MODE </a>
+  </div>
+</div>
+
+{% else %}
+
+<div class="alert alert-primary alert-dismissible fade show" role="alert">
+  <strong> No network! </strong> This look like you have not connected to any network!
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+{% endif %}
+
+
+
+
+{% if user.is_authenticated %}
+
+ <script type="text/javascript"> 
+	Swal.fire({
+  	title: '<strong> Info😊 </strong>',
+  	text: 'BOOM😍! Welcome to anonim, A private place to share files!  #Build with peer to peer network mechanism! so password reset option is not technically possible. please remember your password🤷‍♂️',
+  	type: 'info',
+  	confirmButtonText: 'Cool'
+  	})
+
+ </script>
+
+
+{% else %}
+
+ <script type="text/javascript">                                                              
+  Swal.fire({
+  type: 'error',
+  title: 'Oops... You are not logged-in',
+  text: 'You need to log-in to use anonim, if not registered please create an account! !',
+  footer: '<a href="{% url 'signup' %}"> <strong>Create an account! </strong> </a>'
+})
+  </script>
+
+
+{% endif %}
+
+
+
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+ {% if messages %}
+  <ul class="messages">
+    {% for message in messages %}
+      <div class="alert alert-primary alert-dismissible fade show" role="alert">
+  <strong> Last Update: </strong> {{ message }} on time {{ currentDT }}
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  </div>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+
+
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <div class="card">
+        <div class="card-body">
+          <h2>Log in</h2>
+          <form method="post" novalidate>
+            {% csrf_token %}
+            {{ form|crispy }}
+            <button type="submit" class="btn btn-primary">Log in </button>
+    
+           <!-- <a href="{% url 'password_reset' %}" class="btn btn-link">Forgot your password?</a> -->
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% if user.is_authenticated %}
+
+ <script type="text/javascript"> 
+Swal.fire({
+  title: '<strong> Info😊 </strong>',
+  text: 'BOOM😍! Welcome to anonim, A private place to share files!',
+  type: 'info',
+  confirmButtonText: 'Cool'
+})
+
+ </script>
+
+ {% else %}
+  <script type="text/javascript">                                                              
+  Swal.fire({
+  type: 'error',
+  title: 'Oops... You are not logged-in',
+  text: 'You need to log-in to use anonim, if not registered please create an account! !',
+  footer: '<a href="{% url 'signup' %}"> <strong>Create an account! </strong> </a>'
+})
+  </script>
+  {% endif %}
+
+{% endblock %}

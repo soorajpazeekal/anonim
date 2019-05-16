@@ -1,0 +1,9 @@
+Django==2.1.7
+pyfiglet
+setuptools
+cryptography
+pipreqs
+termcolor
+sockets
+django-crispy-forms
+python-zenity 

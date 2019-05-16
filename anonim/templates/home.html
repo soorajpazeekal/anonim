@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+  
+<div class="alert alert-primary alert-dismissible fade show" role="alert">
+  <strong> {{ msg_heading }} </strong> {{ messages }} <strong>
+ {% if local_connect %}
+   <a href="http://{{local_connect}}:4653">{{local_connect}}:4653 </a> </strong>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+ {% endif %}
+
+ {% if user.is_authenticated %}
+
+ <script type="text/javascript"> 
+Swal.fire({
+  title: '<strong> Info😊 </strong>',
+  text: 'BOOM😍! Welcome to anonim, A private place to share files!',
+  type: 'info',
+  confirmButtonText: 'Cool'
+})
+
+ </script>
+
+ {% else %}
+  <script type="text/javascript">                                                              
+  Swal.fire({
+  type: 'error',
+  title: 'Oops... You are not logged-in',
+  text: 'You need to log-in to use anonim, if not registered please create an account! !',
+  footer: '<a href="{% url 'signup' %}"> <strong>Create an account! </strong> </a>'
+})
+  </script>
+  {% endif %}
+
+
+
+
+
+
+
+
+
+{% endblock %}
