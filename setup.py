@@ -27,7 +27,7 @@ try:
 	print('requirements sucessfully installed..\n')
 	time.sleep(3)
 	print('done. now please read the informations to chnage anonim settings.')
-	webbrowser.open('http://example.com')
+	webbrowser.open('https://github.com/soorajpazeekal/anonim/wiki/Wiki-First-use!')
 except:
 	print('Please check your python path! anonim trying to change that. but got error :(')
 	time.sleep(3)
