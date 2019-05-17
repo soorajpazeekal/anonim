@@ -5,6 +5,8 @@ Go to👉 [Installation.](https://github.com/soorajpazeekal/anonim/blob/master/R
 
 Go to👉 [Features.](https://github.com/soorajpazeekal/anonim/blob/master/README.md#Features)
 
+Go to👉 [First Use](https://github.com/soorajpazeekal/anonim/wiki/Wiki-First-use!)
+
 
 Yes! Future is private! so anonim helps you to send-receive files via some different ways. It is more private, no tracking, and decentralized. (Note: project is in beta mode :))
 
