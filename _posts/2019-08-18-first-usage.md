@@ -1,6 +1,6 @@
 ---
-title: anonim first usage
-description: all links to CoSMo summer school in computational neuroscience materials
+title: anonim first usage.
+description: first blog post.
 categories: blog
 ---
 
