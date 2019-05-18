@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+---
+
+
+
+
 <div class="markdown-body">
 <h2>Welcome to anonim wiki!</h2>
 <p><span style="text-decoration: underline;"><em>(This is anonim web post <a href="anonim.gq">(anonim.gq)</a> 18/05)</em></span></p>
