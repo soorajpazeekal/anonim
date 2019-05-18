@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+title: anonim first usage
+description: all links to CoSMo summer school in computational neuroscience materials
+categories: blog
 ---
-
 
 
 
