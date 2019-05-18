@@ -7,3 +7,4 @@ termcolor
 sockets
 django-crispy-forms
 python-zenity 
+tqdm
