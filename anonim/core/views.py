@@ -91,14 +91,14 @@ def connect_wan(request): #connecting to wide area. assigning to .bin file and s
             if (get_usr_input == 'y'):
                 file = open("wanDomainLog.anonimLog", "r")  
                 out_file_cont = file.read()
-                somestring = ('ssh -R '+out_file_cont+':80:localhost:4653 serveo.net')
+                somestring = ('ssh -R '+out_file_cont+':80:localhost:8000 serveo.net')
                 os.system(somestring)
             if(get_usr_input == 'c'):
                 ans_user = input('enter a name:\n')
                 file = open('wanDomainLog.anonimLog','w') 
                 file.write(ans_user) 
                 file.close() 
-                somestring = ('ssh -R '+ans_user+':80:localhost:4653 serveo.net')
+                somestring = ('ssh -R '+ans_user+':80:localhost:8000 serveo.net')
                 os.system(somestring)
                 msg_heading = 'Info:'
                 messages = 'plesase open the running terminal'
@@ -108,7 +108,7 @@ def connect_wan(request): #connecting to wide area. assigning to .bin file and s
             file = open('wanDomainLog.anonimLog','w') 
             file.write(ans_user) 
             file.close() 
-            somestring = ('ssh -R '+ans_user+':80:localhost:4653 serveo.net')
+            somestring = ('ssh -R '+ans_user+':80:localhost:8000 serveo.net')
             os.system(somestring)
             msg_heading = 'Info:'
             messages = 'plesase open the running terminal'

@@ -10,9 +10,9 @@ user_input = input('Press YES to start application!')
 if user_input == 'yes':
 	cmd = 'alias python=python3'
 	os.system(cmd)
-	cmd = 'python manage.py runserver 0:4653'
+	cmd = 'python manage.py runserver 0:8000'
 	os.system(cmd)
-	webbrowser.open('http://127.0.0.1:4653')
+	webbrowser.open('http://127.0.0.1:8000')
 else:
 	print('Please enter right option:')
 
