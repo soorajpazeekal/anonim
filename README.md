@@ -100,7 +100,12 @@ alias python=python3
 python setup.py
 ```
 
-<h4> After successful Setup process, run anonim.py </h4>
+<h4> After successful Setup process, </h4>
+
+
+```bash
+python anonim.py
+```
 
 
 <h3> 🤩🥳🥰😍Yah! You are successfully installed anonim. Thanks!🤩🥳🥰😍 </h3> 
