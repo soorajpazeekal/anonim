@@ -64,8 +64,6 @@ Yes! Future is private! so anonim helps you to send-receive files via some diffe
 
 
 
-<h3> 🎈This is a beta version and currently tested with Linux/ubuntu OS. windows/mac-os updates coming soon!🎈 </h3>
-
 
 
 
@@ -75,7 +73,7 @@ Anonim, works with [python3.](https://www.python.org/downloads/) If you have not
 
 <h4> If your os is windows? please follow these steps! </h4>
 
-Anonim required Git open source distributed version control system. please [download.](https://git-scm.com/downloads/) and install it.
+Anonim required Git open source distributed version control system. please [download](https://git-scm.com/downloads/) and install it.
 
 
 ```bash
