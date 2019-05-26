@@ -73,7 +73,7 @@ WSGI_APPLICATION = 'anonim.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'hgdhgtwyfurwtdfdwdd.anonimdb'),
+        'NAME': os.path.join(BASE_DIR, 'database82AC65E.anonimdb'),
     }
 }
 

@@ -49,6 +49,13 @@ os.mkdir('media')
 print('--------------media folder created!\n----------------')
 time.sleep(2)
 
+
+print('Creating Datebase!\n')
+time.sleep(2)
+for i in tqdm(range(100)):
+	time.sleep(0.100)
+os.system('python manage.py migrate')
+
 print('Please follow following informations. --Press enter key to continue--\n')
 get_usr = input('')
 time.sleep(2)
@@ -68,7 +75,7 @@ stop_running()
 get_usr = input('Done? Press enter key!')
 stop_running()
 
-print('Done! Now run anoimstart.py to begin')
+print('Done! Now run anoim.py to begin')
 
 
 

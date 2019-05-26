@@ -139,7 +139,7 @@ def signup(request):
         form = UserCreationForm(request.POST)
         if form.is_valid():
             form.save() #Saving directly to db. access via shell
-            return redirect('gallery')
+            return redirect('dash.html')
     else:
         form = UserCreationForm()
     return render(request, 'registration/signup.html', {
