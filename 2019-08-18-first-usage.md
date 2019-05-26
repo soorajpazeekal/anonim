@@ -28,7 +28,7 @@ categories: blog
 <p>4.1) Run&nbsp;<strong>Findlocalip.py</strong>&nbsp;script. (make sure you are now connected to any network. if not, connect now!)</p>
 <p>4.2) After script running you'll get an local IP address. and copy the address and paste to: --ALLOWED_HOSTS = -- (eg:ALLOWED_HOSTS = [ '192.<em><strong>.</strong>.</em>', '133.2.**.*']) carefully add values, separate with commas and ('')).</p>
 <ol start="5">
-<li><strong>All set! Now run 'anonimstart.py' script to start using!</strong></li>
+<li><strong>All set! Now run 'anonim.py' script to start using!</strong></li>
 </ol>
 </div>
 <div id="wiki-footer" class="mt-5 muted-link wiki-footer"><a href="https://github.com/soorajpazeekal/anonim/wiki/Wiki-First-use!">Click this link to read wiki!</a></div>

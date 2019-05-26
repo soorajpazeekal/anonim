@@ -73,6 +73,14 @@ Yes! Future is private! so anonim helps you to send-receive files via some diffe
 
 Anonim, works with [python3.](https://www.python.org/downloads/) If you have not? Please download and install now.
 
+<h4> If your os is windows? please follow these steps! </h4>
+Anonim required Git open source distributed version control system. please [download here](https://git-scm.com/downloads)
+
+```bash
+Git: https://git-scm.com/downloads
+```
+
+After,
 
 <h4> First clone this repo! </h4>
 
@@ -80,7 +88,7 @@ Anonim, works with [python3.](https://www.python.org/downloads/) If you have not
 git clone https://github.com/soorajpazeekal/anonim.git
 ```
 <h4> anonim will run executable commands with *python NOT *python3  </h4>
-(if you have running python3 instead of python 3.*? Please run this command on your terminal!)
+(if you have running python3 instead of python version? Please run this command on your terminal!)
 
 ```bash
 alias python=python3
@@ -91,6 +99,9 @@ alias python=python3
 ```bash
 python setup.py
 ```
+
+<h4> Successful Setup process run anonim.py </h4>
+
 
 <h3> 🤩🥳🥰😍Yah! You are successfully installed anonim. Thanks!🤩🥳🥰😍 </h3> 
 
