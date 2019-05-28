@@ -71,16 +71,8 @@ Yes! Future is private! so anonim helps you to send-receive files via some diffe
 
 Anonim, works with [python3.](https://www.python.org/downloads/) If you have not? Please download and install now.
 
-<h4> If your os is windows? please follow these steps! </h4>
-
-Anonim required Git open source distributed version control system. please [download](https://git-scm.com/downloads/) and install it.
 
 
-```bash
-Git: https://git-scm.com/downloads
-```
-
-After,
 
 <h4> First clone this repo! </h4>
 
