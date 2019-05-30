@@ -13,7 +13,7 @@ try:
 	os.system(cmd)
 	cmd = 'alias pip=pip3'
 	os.system(cmd)
-	cmd = 'pip install -r requirements.txt'
+	cmd = 'pip3 install -r requirements.txt'
 	os.system(cmd)
 	time.sleep(3)
 	print('requirements sucessfully installed..\n')
