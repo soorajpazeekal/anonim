@@ -1,4 +1,4 @@
-Django==2.2.3
+Django==2.2.4
 pyfiglet==0.8.post1
 setuptools==41.0.1
 cryptography==2.6.1
